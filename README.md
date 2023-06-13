@@ -1,6 +1,6 @@
 # Michaela's Portfolio
 
-This is Michaela's portfolio website, showcasing her work and skills.
+This is Michaela's portfolio website, showcasing her work and skills. Here is a link to her deployed website ()
 
 ## Project Description
 
@@ -18,7 +18,10 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Preview
 
-Add a preview of your portfolio website here. You can include screenshots or a GIF to showcase the design and layout of the website.
+<img src="assets/FinalProduct/home-final.png" alt="Home Page Final Version">
+<img src="assets/FinalProduct/aboutme-final.png" alt="About Me Page Final Version">
+<img src="assets/FinalProduct/myprojects-final.png" alt="My Projects Page Final Version">
+<img src="assets/FinalProduct/contact-footer-final.png" alt="Contact Page Final Version">
 
 ## Inspiration and Code Credits
 

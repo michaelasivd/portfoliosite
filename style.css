@@ -12,8 +12,9 @@ header {
   top: 0;
   left: 0;
   width: 100%;
-  padding: 20px 100px;
-  background: transparent;
+  height: 75px;
+  padding: 20px 50px;
+  background: linear-gradient(to right, #cd915f, #7f968b);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -166,8 +167,16 @@ section:nth-child(odd) {
 .card-image {
   width: 100%;
   height: auto;
+  max-height: 100px;
+  object-fit: cover;
+}
+
+.card-image1 {
+  width: 300px;
+  height: 200px;
   max-height: 200px;
   object-fit: cover;
+  position: center;
 }
 
 h5 {
@@ -208,6 +217,16 @@ h5 {
   justify-content: center;
 }
 
+.social {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.social a {
+  margin-bottom: 10px;
+}
+
 .contact-me p {
   color: white;
   font-size: 30px;
@@ -235,18 +254,12 @@ h5 {
 .button-circle:hover {
   background-color: lightpink;
 }
-
-footer p:nth-child(1) {
-  font-size: 30px;
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
   color: white;
-  margin-bottom: 20px;
-  font-weight: bold;
-}
-
-footer p:nth-child(2) {
-  color: white;
-  font-size: 17px;
-  width: 500px;
   text-align: center;
-  line-height: 26px;
 }
