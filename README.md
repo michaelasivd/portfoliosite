@@ -1,6 +1,6 @@
 # Michaela's Portfolio
 
-This is Michaela's portfolio website, showcasing her work and skills. Here is a link to her deployed website ()
+This is my portfolio website, showcasing my work and skills. Here is a link to the deployed website (https://michaelasivd.github.io/portfoliosite/)
 
 ## Project Description
 
