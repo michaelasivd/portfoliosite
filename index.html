@@ -3,12 +3,9 @@
   <meta name="viewport" content="width=device-width, inital-scale=1.0" />
   <title>Portfolio</title>
   <link rel="stylesheet" href="style.css" />
-  <script
-    type="module"
-    src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-  <script
-    nomodule
-    src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
 </head>
 
 <body>
@@ -22,7 +19,9 @@
     </nav>
   </header>
 
-  <section class="home">
+  <!--This is the home section-->
+
+  <section id="home" class="home">
     <div class="home-info">
       <h1>Hi, I'm Michaela Steele!</h1>
       <h3>Graphic Designer</h3>
@@ -33,7 +32,9 @@
     </div>
   </section>
 
-  <section class="about">
+  <!--Here I have my About me section-->
+
+  <section id="about" class="about">
     <div class="main">
       <img src="Images/project1_cover.jpg" />
       <div class="about-text">
@@ -57,13 +58,19 @@
     </div>
   </section>
 
-  <section class="projects">
+  <!--This section covers my projects-->
+
+  <section id="projects" class="projects">
     <div class="title">
       <h2>My Projects</h2>
     </div>
 
     <div class="box">
       <div class="card">
+        <img
+          src="Images/project3_cover.jpg"
+          alt="Card Image for Brand Design"
+          class="card-image" />
         <h5>Brand Design</h5>
         <div class="pra">
           <p>
@@ -78,6 +85,10 @@
       </div>
 
       <div class="card">
+        <img
+          src="Images/project2_cover.jpg"
+          alt="Card Image for Website Design"
+          class="card-image" />
         <h5>Website Design</h5>
         <div class="pra">
           <p>
@@ -91,6 +102,10 @@
       </div>
 
       <div class="card">
+        <img
+          src="Images/project4_cover.jpg"
+          alt="Card Image for Adobe Projects"
+          class="card-image" />
         <h5>Adobe Projects</h5>
         <div class="pra">
           <p>
@@ -106,21 +121,31 @@
     </div>
   </section>
 
-  <section class="contact-me">
+  <!--This section is where I can be contacted-->
+
+  <section id="contact-me" class="contact-me">
     <p>Let's Design Something Amazing!</p>
     <div class="social">
-      <a href="#"><ion-icon name="mail-outline"></ion-icon></a>
-      <a href="https://www.linkedin.com/in/michaela-steele-057b72151/"
-        ><ion-icon name="logo-linkedin"></ion-icon
-      ></a>
-      <a href="https://github.com/michaelasivd"
-        ><ion-icon name="logo-github"></ion-icon
-      ></a>
+      <button>
+        <a href="mailto:michaelasivd@gmail.com"
+          ><i class="fas fa-envelope"></i
+        ></a>
+      </button>
+      <button>
+        <a href="https://www.linkedin.com/in/michaela-steele-057b72151/"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+      </button>
+      <button>
+        <a href="https://github.com/michaelasivd"
+          ><i class="fab fa-github"></i
+        ></a>
+      </button>
     </div>
   </section>
 
+  <!--This is my footer-->
   <footer>
     <p>Michaela Steele 2023</p>
   </footer>
 </body>
-<!--Comment
